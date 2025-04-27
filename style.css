@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first-container{
+    background-color: beige;
+    height: 100vh;
+}
+
+.inner-container{
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    /* box-shadow: x-offset y-offset blur-radius spread color; */
+    box-shadow: 5px 5px 20px  grey ;
+    border-radius: 5px;
+}
+
+.header{
+    color: beige;
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: cursive;
+    margin: 10px;
+}
+p{
+    margin: 0px;
+    margin-bottom: 40px;
+
+}
+
+input[type=name]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid beige;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 2px 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+input[type=email]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid beige;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 2px 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+input[type=text]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid beige;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 2px 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    margin: 30px 0px;
+    cursor: pointer;
+    background-color: rgb(105, 103, 103);
+    color: beige;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: red;
+ 
+}
